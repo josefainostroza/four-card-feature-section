@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+body {
+  margin: 0;
+  font-family: 'poppins', sans-serif;
+  color: aliceblue;
+}
+
+.header {
+  padding: 85px 32px 76px 32px;
+  background-color: aquamarine;
+}
+
+.text {
+  margin: 0;
+  line-height: 35px; /*interlineado*/
+}
+.text-title1 {
+  font-weight: 200; /*grosor, peso de la fuente*/
+  font-size: 24px; /*tamaño de la fuente*/
+  color: #4d4f62;
+  text-align: center;
+}
+.text-title2 {
+  font-weight: 600; /*grosor, peso de la fuente*/
+  font-size: 24px; /*tamaño de la fuente*/
+  color: #4d4f62;
+  text-align: center;
+}
+
+.text-parrafo {
+  margin: 16px;
+  font-weight: 400; /*grosor, peso de la fuente*/
+  font-size: 15px; /*tamaño de la fuente*/
+  color: #4d4f62;
+  text-align: center;
+  line-height: 25px; /*interlineado*/
+}
+
+.container {
+  height: 1114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: aqua;
+}
+.card {
+  width: 311px;
+  height: 222px;
+  position: relative;
+  padding: 27px 174px 165px 28px;
+  background-color: rgb(171, 132, 82);
+  box-shadow: 0px 15px 30px -11px #83a6d2;
+  border-radius: 8px;
+}
+.text-title3 {
+  font-weight: 600; /*grosor, peso de la fuente*/
+  font-size: 20px; /*tamaño de la fuente*/
+  color: #4d4f62;
+  width: 254px;
+}
+
+.text-parrafocards {
+  font-weight: 400; /*grosor, peso de la fuente*/
+  font-size: 13px; /*tamaño de la fuente*/
+  color: #4d4f62;
+  line-height: 23px; /*interlineado*/
+  width: 254px;
+}
