@@ -22,12 +22,13 @@ ul {
 body {
   margin: 0;
   font-family: 'poppins', sans-serif;
-  color: aliceblue;
+  color: #FAFAFA;
+  background-color: #FAFAFA;
 }
 
 .header {
-  padding: 85px 32px 76px 32px;
-  background-color: aquamarine;
+  padding: 85px 32px 30px 32px;
+  background-color: #FAFAFA;
 }
 
 .text {
@@ -62,17 +63,57 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: aqua;
 }
+
+  @media screen and (width>768px){
+    .container-cards0 {
+      height: 800px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center
+    }
+    }
+
+.container-cards{
+  height: 1114px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (width>768px){
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+  }
+
+
 .card {
   width: 311px;
   height: 222px;
   position: relative;
   padding: 27px 174px 165px 28px;
-  background-color: rgb(171, 132, 82);
+  background-color: #fff;
   box-shadow: 0px 15px 30px -11px #83a6d2;
   border-radius: 8px;
+  }
+.card-supervisor{
+  box-shadow: 0px 15px 30px -11px #83a6d2, 0px -5px#00C8C8
 }
+  
+.card-builder{
+  box-shadow: 0px 15px 30px -11px #83a6d2, 0px -5px#FF637B
+}
+.card-Karma{
+  box-shadow: 0px 15px 30px -11px #83a6d2, 0px -5px#FDBF00
+}
+.card-Calculator{
+  box-shadow: 0px 15px 30px -11px #83a6d2, 0px -5px#377FD2
+}
+
 .text-title3 {
   font-weight: 600; /*grosor, peso de la fuente*/
   font-size: 20px; /*tamaño de la fuente*/
@@ -87,3 +128,12 @@ body {
   line-height: 23px; /*interlineado*/
   width: 254px;
 }
+
+.images {
+  position: relative;
+  width: 57px;
+  height: 57px;
+  bottom: -28px;
+  left: 200px;
+}
+
